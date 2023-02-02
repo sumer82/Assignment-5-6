@@ -27,9 +27,14 @@ column after update
 
 
 
-3 
+3   Create a table Proffessor
+    Create a table Subject
+    Create a 1 : many relation between subject.
+    Creates many :1 relation between subject :cousrse(Professor teaches a course) 
+    
 
 subject table 
+
 
 ![image](https://user-images.githubusercontent.com/91982125/216296616-b7f9fd52-a3cd-40b5-b600-c179e1e85a36.png)
 
