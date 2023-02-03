@@ -12,6 +12,7 @@ public class Cart {
 	
 	public void addToCart(Product prod) {
 		this.prod = prod;
+		this.prod.qty--;
 		this.cartTotal = this.cartTotal+ this.prod.price;
 		cartProduct.add(this.prod);
 		System.out.println("product added to card sucessfully");
